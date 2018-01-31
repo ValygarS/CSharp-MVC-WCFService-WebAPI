@@ -80,3 +80,12 @@ INSERT INTO Teas (Type, Name, Qty, Price, Year) VALUES ('Green Tea', 'Maofen', 4
 * Visual Studio 2015
 
 ## Screenshots
+![Main page](Images/main_page.jpg "Start screen")
+![Database management](Images/MVC-management.jpg "MVC Application to manage SQL DB data")
+![WCF Service](Images/Console_WCF_Service.jpg "Console WCF Service running")
+![WCF Client](Images/Console_WCF_Client.jpg "Console client connected to WCF Service")
+![WebAPI Raw](Images/WebAPI_RawData.jpg "WebAPI Raw data for all Teas")
+![WebAPI Raw 2](Images/WebAPI_RawData2.jpg "WebAPI Raw data for selected item index")
+![WebAPI Interface](Images/WebAPI_Service.jpg "WebAPI Service basic interface")
+![WebAPI Interface 2](Images/WebAPI_Service_GetAllTeas.jpg "WebAPI Service: show all teas")
+![WebAPI Interface 3](Images/WebAPI_Service_ChangeQty.jpg "WebAPI Service: update selected tea quantity ")
