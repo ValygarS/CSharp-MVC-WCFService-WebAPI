@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA2_Azure", "CA2_Azure\CA2_Azure.csproj", "{4F7EDFB0-7720-4850-8D04-6B087D6C9F32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWCFService", "ConsoleWCFService\ConsoleWCFService.csproj", "{0D207D6D-C35A-4592-82D2-B062278340F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWCFServiceClient", "ConsoleWCFServiceClient\ConsoleWCFServiceClient.csproj", "{A0080F22-42B3-4AAA-8FC8-06A9039AEB2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIService", "WebAPIService\WebAPIService.csproj", "{93DB7DC2-71D9-47F2-8ED5-476F2C6D16AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA2_AzureTests", "CA2_AzureTests\CA2_AzureTests.csproj", "{A3CE90A9-C492-4083-A3A5-4A5207C8E9B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIServiceTests", "WebAPIServiceTests\WebAPIServiceTests.csproj", "{97B6B959-4A58-4A3E-8BA1-7EB3729F1F65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D31B6081-D575-4552-9772-BDD2AC3BFA22}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F7EDFB0-7720-4850-8D04-6B087D6C9F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7EDFB0-7720-4850-8D04-6B087D6C9F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7EDFB0-7720-4850-8D04-6B087D6C9F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7EDFB0-7720-4850-8D04-6B087D6C9F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D207D6D-C35A-4592-82D2-B062278340F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D207D6D-C35A-4592-82D2-B062278340F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D207D6D-C35A-4592-82D2-B062278340F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D207D6D-C35A-4592-82D2-B062278340F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0080F22-42B3-4AAA-8FC8-06A9039AEB2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0080F22-42B3-4AAA-8FC8-06A9039AEB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0080F22-42B3-4AAA-8FC8-06A9039AEB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0080F22-42B3-4AAA-8FC8-06A9039AEB2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DB7DC2-71D9-47F2-8ED5-476F2C6D16AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DB7DC2-71D9-47F2-8ED5-476F2C6D16AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DB7DC2-71D9-47F2-8ED5-476F2C6D16AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DB7DC2-71D9-47F2-8ED5-476F2C6D16AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CE90A9-C492-4083-A3A5-4A5207C8E9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CE90A9-C492-4083-A3A5-4A5207C8E9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CE90A9-C492-4083-A3A5-4A5207C8E9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CE90A9-C492-4083-A3A5-4A5207C8E9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B6B959-4A58-4A3E-8BA1-7EB3729F1F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B6B959-4A58-4A3E-8BA1-7EB3729F1F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B6B959-4A58-4A3E-8BA1-7EB3729F1F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B6B959-4A58-4A3E-8BA1-7EB3729F1F65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://akolchin.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CA2_Azure\\CA2_Azure.csproj
+		SccProjectName1 = CA2_Azure
+		SccLocalPath1 = CA2_Azure
+		SccProjectUniqueName2 = ConsoleWCFService\\ConsoleWCFService.csproj
+		SccProjectName2 = ConsoleWCFService
+		SccLocalPath2 = ConsoleWCFService
+		SccProjectUniqueName3 = ConsoleWCFServiceClient\\ConsoleWCFServiceClient.csproj
+		SccProjectName3 = ConsoleWCFServiceClient
+		SccLocalPath3 = ConsoleWCFServiceClient
+		SccProjectUniqueName4 = WebAPIService\\WebAPIService.csproj
+		SccProjectName4 = WebAPIService
+		SccLocalPath4 = WebAPIService
+		SccProjectUniqueName5 = CA2_AzureTests\\CA2_AzureTests.csproj
+		SccProjectName5 = CA2_AzureTests
+		SccLocalPath5 = CA2_AzureTests
+		SccProjectUniqueName6 = WebAPIServiceTests\\WebAPIServiceTests.csproj
+		SccProjectName6 = WebAPIServiceTests
+		SccLocalPath6 = WebAPIServiceTests
+	EndGlobalSection
+EndGlobal

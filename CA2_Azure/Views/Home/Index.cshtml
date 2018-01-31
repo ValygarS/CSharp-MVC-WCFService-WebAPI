@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div><br /></div>
+<div class="jumbotron" style="border:ridge">
+    <h2 style="font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif; font-style:oblique">Introduction</h2>
+    <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size-adjust:inherit">
+        The SQL database contains data about currently available teas in the teashop.<br />
+        There are properties for the types of tea: Green, Black, Yellow, White, Puerh, etc.<br />
+        Quantity (qty) is measured in grams, except for Puerh tea, which is measured in pieces,
+        because it is produced in cakes. So qty 10000 for green tea, will be 10kg and qty 10
+        for Puerh tea will be 10 cakes.<br />
+        The price is given for 100 grams of tea, except for Puerh tea, the price is for one tea cake.
+    </p>
+    @using (Html.BeginForm("Teas","Home"))
+    {
+    <p><input type="submit" class="btn btn-primary btn-lg" value="Proceed to management" /></p>
+    }
+</div>
+

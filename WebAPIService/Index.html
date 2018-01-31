@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Tea Database WebAPI</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div>
+        <h2>List of tea</h2>
+        <input type="button" value="Get all teas" onclick="getAll();" />
+        <ul id="AllTea"></ul>
+     </div>
+    <div>
+        <h2>Change selected tea quantity</h2>
+        <label for="TeaID">Enter Tea ID:&nbsp;&nbsp;</label><input type="text" id="TeaID" size="3"/>
+        <br /><br />
+        <label for="TeaQty">New Quantity:</label><input type="text" id="TeaQty" size="3"/>
+        <br /><br />
+        <input type="button" value="Change quantity" onclick="edit();" />
+        <p id="UpdateResult"></p>
+    </div>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-2.0.3.min.js"></script>
+    <script>
+        var uri = "api/Teas";
+
+        function getAll() {
+            $('#AllTea').text("");
+            $('#UpdateResult').text("");
+            // Send an AJAX request
+            $.getJSON(uri)
+                .done(function (data) {
+                    // On success data contains list of teas
+                    $.each(data, function (key, tea) {
+                        // add a list item for the product
+                        $('<li>', { text: formatItem(tea) }).appendTo($('#AllTea'));
+                    });
+                });
+        };
+        
+        function formatItem(tea) {
+            return " [ID:" + tea.Id + "] " + "Type:" + tea.Type + ", Name:" + tea.Name +
+                ", Quantity:" + tea.Qty + ", Price:" + tea.Price + " USD, Year:" + tea.Year;
+        }
+
+        // edit function
+        function edit() {
+            var id = $('#TeaID').val();
+            var qty = $('#TeaQty').val();
+
+            if (qty < 0) {
+                $('#UpdateResult').text("Tea quantity cannot be negative number");
+            }
+            else {
+                // get tea object and then send it back with PUT method
+                $.getJSON(uri + '/' + id)
+                    .done(function (data) {
+                        data.Qty = qty;
+                        $.ajax({
+                            url: uri + '/' + id,
+                            type: 'PUT',
+                            data: data,
+                            dataType: 'json',
+                            success: function (response) {
+                                $('#UpdateResult').text('Updated successfully!');
+                            },
+                            error: function (jqXHR, textStatus, err) {
+                                
+                                // alert with error text
+                                alert(jqXHR.status + ": " + jqXHR.responseText);
+                                $('#UpdateResult').text(jqXHR.status + " " + textStatus + ", " + err);
+                            }
+                        });
+                    })
+                    .fail(function (jqXHR, textStatus, err) {
+                        $('#UpdateResult').text('Error: ' + err);
+                    });
+            }
+        }
+
+    </script>
+
+
+    
+</body>
+</html>

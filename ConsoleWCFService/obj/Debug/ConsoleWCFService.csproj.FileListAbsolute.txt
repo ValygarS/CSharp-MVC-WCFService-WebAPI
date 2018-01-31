@@ -1,0 +1,10 @@
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFService\bin\Debug\ConsoleWCFService.exe.config
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFService\bin\Debug\ConsoleWCFService.exe
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFService\bin\Debug\ConsoleWCFService.pdb
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFService\bin\Debug\EntityFramework.dll
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFService\bin\Debug\EntityFramework.SqlServer.dll
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFService\bin\Debug\EntityFramework.xml
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFService\bin\Debug\EntityFramework.SqlServer.xml
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFService\obj\Debug\ConsoleWCFService.csprojResolveAssemblyReference.cache
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFService\obj\Debug\ConsoleWCFService.exe
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFService\obj\Debug\ConsoleWCFService.pdb

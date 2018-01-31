@@ -1,0 +1,6 @@
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFServiceClient\bin\Debug\ConsoleWCFServiceClient.exe.config
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFServiceClient\bin\Debug\ConsoleWCFServiceClient.exe
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFServiceClient\bin\Debug\ConsoleWCFServiceClient.pdb
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFServiceClient\obj\Debug\ConsoleWCFServiceClient.exe
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFServiceClient\obj\Debug\ConsoleWCFServiceClient.pdb
+C:\DIT\Projects\VisualStudio\CA2_Azure_Sln\ConsoleWCFServiceClient\obj\Debug\ConsoleWCFServiceClient.csprojResolveAssemblyReference.cache
