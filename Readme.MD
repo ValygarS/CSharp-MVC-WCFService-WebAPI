@@ -5,15 +5,15 @@ then add a WCF Service and a client; and finally create a REST Service (WebAPI)
 ## Overview
 
 Solution contains 4 projects:
-1)ASP.NET MVC app to manage local SQL database. Initially that was Azure Database, but my trial version expired, so changed it
+1) ASP.NET MVC app to manage local SQL database. Initially that was Azure Database, but my trial version expired, so changed it
 to local database
-2)Console WCF Service
-3)Console WCF Client
-4)WebAPI Service
+2) Console WCF Service
+3) Console WCF Client
+4) WebAPI Service
 
 And 2 test projects:
-1)CA2_AzureTests - contains tests for MVC application and Console WCF Service
-2)WebAPIServiceTests
+1) CA2_AzureTests - contains tests for MVC application and Console WCF Service
+2) WebAPIServiceTests
 
 ## Setup
 
@@ -56,7 +56,7 @@ GO
 
 The data which was added to table and used for project can be found in MockDB class in CA2_AzureTests
 
-Here is example sql queries:
+**Here is example sql queries:**
 
 INSERT INTO Teas (Type, Name, Qty, Price, Year) VALUES ('Green Tea', 'Biluochun', 5000, 5, '2017');
 
